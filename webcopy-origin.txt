@@ -1,0 +1,168 @@
+Uri: https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\ajax\libs\webfont\1.6.26\webfont.js
+Content Type: text/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\ajax\libs\fullPage.js\3.0.7\fullpage.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\ajax\libs\fullPage.js\3.0.7\fullpage.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css?family=DM+Sans&display=swap
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\css-1
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/dmsans/v10/rP2Hp2ywxg089UriCZOIGA.ttf
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\s\dmsans\v10\rP2Hp2ywxg089UriCZOIGA.ttf
+Content Type: font/ttf
+
+Uri: https://www.lucaporracchia.com/about.html
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\about.html
+Content Type: text/html
+
+Uri: https://www.lucaporracchia.com/css/jquery.pagepiling.css
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\css\jquery.pagepiling.css
+Content Type: text/css
+
+Uri: https://www.lucaporracchia.com/css/stylehome.css
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\css\stylehome.css
+Content Type: text/css
+
+Uri: https://www.lucaporracchia.com/css/styleproject.css
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\css\styleproject.css
+Content Type: text/css
+
+Uri: https://www.lucaporracchia.com/font/favoritregular.woff
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\font\favoritregular.woff
+Content Type: font/x-woff
+
+Uri: https://www.lucaporracchia.com/img/bandiera2.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\bandiera2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/img/ConfidencialPouch.gif
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\ConfidencialPouch.gif
+Content Type: image/gif
+
+Uri: https://www.lucaporracchia.com/img/ConfidencialPouch2.gif
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\ConfidencialPouch2.gif
+Content Type: image/gif
+
+Uri: https://www.lucaporracchia.com/img/Cover.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\Cover.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/img/cursor1.png
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\cursor1.png
+Content Type: image/png
+
+Uri: https://www.lucaporracchia.com/img/cursor2.png
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\cursor2.png
+Content Type: image/png
+
+Uri: https://www.lucaporracchia.com/img/Date-1.gif
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\Date-1.gif
+Content Type: image/gif
+
+Uri: https://www.lucaporracchia.com/img/Date0.gif
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\Date0.gif
+Content Type: image/gif
+
+Uri: https://www.lucaporracchia.com/img/Date1.gif
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\Date1.gif
+Content Type: image/gif
+
+Uri: https://www.lucaporracchia.com/img/egizio1.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\egizio1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/img/favicon.png
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\favicon.png
+Content Type: image/png
+
+Uri: https://www.lucaporracchia.com/img/introM5.mp4
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\introM5.mp4
+Content Type: video/mp4
+
+Uri: https://www.lucaporracchia.com/img/Mockup-01.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\Mockup-01.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/img/Mupi2.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\Mupi2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/img/Mupi3.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\Mupi3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/img/Poster1.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\Poster1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/img/Poster2.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\Poster2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/img/tesi01.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\tesi01.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/img/tesi02.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\tesi02.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/img/vox01.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\vox01.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/img/vox02.jpg
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\img\vox02.jpg
+Content Type: image/jpeg
+
+Uri: https://www.lucaporracchia.com/index.html
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\index.html
+Content Type: text/html
+
+Uri: https://www.lucaporracchia.com/js/blotter.min.js
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\js\blotter.min.js
+Content Type: application/javascript
+
+Uri: https://www.lucaporracchia.com/js/charming.min.js
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\js\charming.min.js
+Content Type: application/javascript
+
+Uri: https://www.lucaporracchia.com/js/demo.js
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\js\demo.js
+Content Type: application/javascript
+
+Uri: https://www.lucaporracchia.com/js/demo2.js
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\js\demo2.js
+Content Type: application/javascript
+
+Uri: https://www.lucaporracchia.com/js/imagesloaded.pkgd.min.js
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\js\imagesloaded.pkgd.min.js
+Content Type: application/javascript
+
+Uri: https://www.lucaporracchia.com/js/jquery-3.4.1.min.js
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\js\jquery-3.4.1.min.js
+Content Type: application/javascript
+
+Uri: https://www.lucaporracchia.com/js/jquery.pagepiling.min.js
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\js\jquery.pagepiling.min.js
+Content Type: application/javascript
+
+Uri: https://www.lucaporracchia.com/js/materials/liquidDistortMaterial.js
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\js\materials\liquidDistortMaterial.js
+Content Type: application/javascript
+
+Uri: https://www.lucaporracchia.com/js/TweenMax.min.js
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\js\TweenMax.min.js
+Content Type: application/javascript
+
+Uri: https://www.lucaporracchia.com/works.html
+File Name: C:\Downloaded Web Sites\www.lucaporracchia.com\works.html
+Content Type: text/html
+
