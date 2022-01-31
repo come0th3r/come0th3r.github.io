@@ -1,0 +1,499 @@
+@font-face {
+font-family: 'favoritregular';
+src:  url('../font/favoritregular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+* {
+  cursor: url("../img/cursor1.png"), auto;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#fullpage {
+  height: 100%;
+}
+
+#fullpage section {
+  height: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color:#000;
+  cursor: url("../img/cursor2.png"), auto;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#000;
+}
+
+body, h1, h2, a {
+  font-family: favoritregular;
+  font-size: 3.6vh;
+  line-height: 4.2vh;
+  font-weight:normal;
+}
+
+.color-orange {
+  color: #FF9900;
+}
+
+.arrow {
+  position: relative;
+  display: inline-block;
+  animation-timing-function:cubic-cubic-bezier(.64,0,.41,1);
+  animation: animate 2.0s alternate infinite;
+}
+
+@keyframes animate
+{
+  0%
+  {
+    transform: translateY(0px) rotate(0deg);
+  }
+  40%
+  {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50%
+  {
+    transform: translateY(-50px) rotate(180deg);
+  }
+  60%
+  {
+    transform: translateY(0px) rotate(360deg);
+  }
+  100%
+  {
+    transform: translateY(0px) rotate(360deg);
+  }
+}
+
+.wrapper {
+  height: 100%;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "sezioneinfo scrollformore";
+}
+
+.wrapper2 {
+  height: 100%;
+  background-color: #fff;
+  z-index: 1;
+  padding-left: 20px;
+  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "titolo photo"
+  "annoemore photo";
+}
+
+.wrapper3 {
+  height: 100%;
+  background-color: #fff;
+  z-index: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "anno exp"
+}
+
+.wrapper4 {
+  height: 100%;
+  background-color: #fff;
+  z-index: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "anno exp"
+  "anno feet";
+}
+
+.cool-link, .btn {
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #000 50%);
+  transition: background-position 0.3s ease-out;
+}
+
+.cool-link:hover, .btn:hover {
+  background-position: -100% 0;
+}
+
+.navbar1 {
+  font-family: favoritregular;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "logo works about"
+}
+
+.navbar2 {
+  font-weight:normal;
+  padding-left: 20px;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "logo works about"
+}
+
+.logo {
+  grid-area: logo;
+  display: grid;
+  justify-content: start;
+  align-content: center;
+}
+
+.works {
+  grid-area: works;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.about {
+  grid-area: about;
+  display: grid;
+  justify-content: end;
+  align-content: center;
+}
+
+/* .btn {
+    letter-spacing: 0;
+    box-sizing: inherit;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function:ease-in-out;
+}
+
+.btn:hover,
+.btn:active {
+  letter-spacing: 3px;
+} */
+
+ .hover-reveal {
+	position: fixed;
+	width: 360px;
+	height: 640px;
+	top: 0;
+	right: 0;
+	pointer-events: none;
+	opacity: 0;
+  z-index: 10;
+}
+
+.hover-reveal__inner,
+.hover-reveal__img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+  z-index: 10;
+}
+
+.hover-reveal__img {
+	background-size: cover;
+	background-position: 50% 50%;
+  z-index: 10;
+}
+
+h2 {
+  text-decoration: none;
+  color:#000;
+  font-family: favoritregular;
+  font-weight:normal;
+  animation: .8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewX(-15deg);
+  }
+  5% {
+    transform: skewX(15deg);
+  }
+  10% {
+    transform: skewX(-15deg);
+  }
+  15% {
+    transform: skewX(15deg);
+  }
+  20% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
+
+.sezioneinfo {
+  grid-area: sezioneinfo;
+  padding-top: 9vh;
+}
+
+.exp {
+  grid-area: exp;
+  padding-top: 9vh;
+}
+
+.scrollformore {
+  grid-area: scrollformore;
+  align-self: end;
+  justify-self: end;
+}
+
+.anno {
+  grid-area: anno;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.more {
+  grid-area: more;
+  align-self: end;
+  justify-self: end;
+}
+
+.annotesto {
+  grid-area: annotesto;
+  align-self: end;
+  justify-self: start;
+}
+
+.annoemore {
+  cursor: url("../img/cursor1.png"), auto;
+
+  padding-bottom: 20px;
+  grid-area: annoemore;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "annotesto more";
+}
+.anno img {
+  object-fit:cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.footer1 {
+  cursor: url("../img/cursor2.png"), auto;
+
+  grid-area: foot1;
+}
+
+.footer2 {
+  cursor: url("../img/cursor2.png"), auto;
+
+  grid-area: foot2;
+  display: grid;
+  justify-self: end;
+}
+
+.feet {
+  cursor: url("../img/cursor1.png"), auto;
+
+  grid-area: feet;
+  padding-bottom: 20px;
+  align-items: end;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "foot1 foot2";
+}
+
+.titolo {
+  grid-area: titolo;
+  padding-top: 80px;
+}
+
+.immagineprogetto {
+  grid-area: photo;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.immagineprogetto img {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  cursor: url("../img/cursor2.png"), auto;
+}
+
+.immagineprogetto:hover img:nth-child(2) {
+  transform: translateX(-50%) scaleX(2);
+  opacity: 0;
+  filter: blur(10px)
+}
+
+.immagineprogetto img:nth-child(1) {
+  transform: translateX(50%) scaleX(2);
+  opacity: 0;
+  filter: blur(10px)
+}
+
+.immagineprogetto:hover img:nth-child(1) {
+  transform: translateX(0) scaleX(1);
+  opacity: 1;
+  filter: blur(0)
+}
+
+@media (max-width: 1024px) {
+
+  .wrapper {
+    height: 100%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "sezioneinfo"
+    "scrollformore";
+  }
+
+  .wrapper4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px auto auto;
+    grid-template-areas:
+    "anno anno"
+    "exp exp"
+    "feet feet";
+  }
+
+  .wrapper2 {
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+    "titolo"
+    "photo"
+    "annoemore";
+  }
+
+  .annoemore {
+    padding-bottom: 0px;
+  }
+
+  .navbar2 {
+    width: 100%;
+    padding-right:20px;
+    padding-top: 20px;
+  }
+
+  body, h1, h2, a {
+    font-size: 3vh;
+    line-height: 3.6vh;
+  }
+
+  .exp {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #fullpage {
+    height: 100%;
+  }
+
+  #fullpage section {
+    height: 100%;
+  }
+
+  .wrapper4 {
+    height: 100%;
+    background-color: #fff;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px auto auto;
+    grid-template-areas:
+    "anno anno"
+    "exp exp"
+    "feet feet";
+  }
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .exp {
+    padding-top: 0px;
+  }
+
+  .hover-reveal {
+  	position: fixed;
+  	width: 240px;
+  	height: 426px;
+  	top: 0;
+  	right: 0;
+  	pointer-events: none;
+  	opacity: 0;
+  }
+
+  .titolo, .sezioneinfo {
+    padding-top: 9vh;
+  }
+}

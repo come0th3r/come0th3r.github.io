@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Brutal Type';
+    src: local('Brutal Type Regular'), local('Brutal-Type-Regular'),
+        url('.../BrutalType.woff2') format('woff2'),
+        url('.../BrutalType.woff') format('woff'),
+        url('.../BrutalType.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+* {
+  cursor: url("../img/cursor1.png"), auto;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+	overflow: hidden;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: calc(100vh - 13rem);
+	position: relative;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.content__text {
+	position: absolute;
+  color: #fff;
+}
+
+.js .content__text-inner {
+	opacity: 0;
+}
+
+.content {
+	height: 100vh;
+	justify-content: center;
+}
+
+
+a:link {
+  text-decoration: none;
+  color:#000;
+  cursor: url("../img/cursor2.png"), auto;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#000;
+}
+
+#intro {
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+}
+
+#intro img {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  width: 100vw;
+  height: 100%;
+}
+
+#myVideo {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  width: 100vw;
+  height: 100%;
+}
+
+body, h1, h2, a {
+  font-family: Overpass;
+  font-size: 3.6vh;
+  line-height: 4.2vh;
+  font-weight:normal;
+}
+
+.navbar1 {
+  font-family: Overpass;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "logo works about"
+}
+
+.feet {
+  cursor: url("../img/cursor1.png"), auto;
+
+  grid-area: feet;
+  font-family: Overpass;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "foot1 foot2";
+}
+
+.footer1 {
+  cursor: url("../img/cursor2.png"), auto;
+
+  grid-area: foot1;
+  display: grid;
+  justify-content: start;
+  align-content: center;
+}
+
+.footer2 {
+  cursor: url("../img/cursor2.png"), auto;
+
+  grid-area: foot2;
+  display: grid;
+  justify-content: end;
+  align-content: center;
+}
+
+.logo {
+  grid-area: logo;
+  display: grid;
+  justify-content: start;
+  align-content: center;
+}
+
+.works {
+  grid-area: works;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.about {
+  grid-area: about;
+  display: grid;
+  justify-content: end;
+  align-content: center;
+}
+
+.btn {
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #000 50%);
+  transition: background-position 0.3s ease-out;
+}
+
+.btn:hover {
+  background-position: -100% 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .content { display: none;; }
+}
+
+@media (max-width: 1024px) {
+
+  h1, h2, a {
+    font-size: 3vh;
+    line-height: 3.6vh;
+  }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  #intro { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 1025px) {
+  #intro { display: none; }   /* hide it elsewhere */
+}
