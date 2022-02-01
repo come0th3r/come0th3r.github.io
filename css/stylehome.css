@@ -2,8 +2,6 @@
     font-family: 'Brutal Type';
     src: local('Brutal Type Regular'), local('Brutal-Type-Regular'),
         url('.../BrutalType.woff2') format('woff2'),
-        url('.../BrutalType.woff') format('woff'),
-        url('.../BrutalType.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
