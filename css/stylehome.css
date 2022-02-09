@@ -1,10 +1,6 @@
 @font-face {
-    font-family: 'brutal_typeregular';
-    src: url('brutaltype-webfont.woff2') format('woff2'),
-         url('brutaltype-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    font-family: 'Ermlov';
+    src: url('../font/Overpass-Regular.ttf');
 }
 
 * {
@@ -86,14 +82,14 @@ a:visited {
 }
 
 body, h1, h2, a {
-  font-family: brutal_typeregular;
+  font-family: Ermlov;
   font-size: 3.6vh;
   line-height: 4.2vh;
   font-weight:normal;
 }
 
 .navbar1 {
-  font-family: brutal_typeregular;
+  font-family: Ermlov;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -111,7 +107,7 @@ body, h1, h2, a {
   cursor: url("../img/cursor1.png"), auto;
 
   grid-area: feet;
-  font-family: brutal_typeregular;
+  font-family: Ermlov;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
